@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    max-width: 100%;
+   
+}
+body{
+    background-color: whitesmoke;
+    
+}
+#container{
+    width: 30%;
+    margin: auto;
+    text-align: center;
+    padding-top: 2%;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 3px;
+    color: rgb(104, 97, 97);
+    background-color: white;
+    border: 1px solid rgb(216, 210, 210);
+}
+
+#logo img{
+    width: 50%;
+}
+
+#bridge img{
+    width:100px ;
+    height: 100px;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-top: 4.5%;
+    border: 1px solid rgb(177, 175, 175);;
+    padding:1%;
+
+}
+
+#form-oturumac {
+    margin-top: 4.5%; 
+}
+/* name */
+#form-name{
+    margin-top: 4.5%;
+    font-size: 0.9rem;
+}
+
+#form-name label{
+    margin-right: 50%;
+}
+
+#name{
+    padding: 1.8%;
+    border-radius: 3px;
+    border-width: 0.1rem;
+    border-color:rgb(177, 175, 175);
+    width: 70%;
+    margin-top: 1%;
+    border:none;
+
+}
+
+/* Password */
+#form-password{
+    margin-top: 3%;
+    font-size: 0.9rem;
+}
+
+#form-password label{
+    margin-right: 62%;
+}
+
+#sıfre{
+    padding: 1.8%;
+    border-radius: 3px;
+    border-width: 0.1rem;
+    border-color:rgb(177, 175, 175) ;
+    width: 70%;
+    margin-top: 1%;
+}
+/* checkbox */
+#form-checkbox{
+    margin-top: 7%;
+}
+#tick{   /* checkbox kutusunun ölçüsünu büyüttük*/
+    transform: scale(1.2);
+    margin-right: 1%; 
+}
+#form-checkbox label{
+    font-size: 0.88rem;
+}
+
+/* Oturum aç butonu */
+
+#button{
+    margin-top: 5%;
+}
+
+#oturumac{
+    width: 70%;
+    padding: 3.5%;
+    background-color: rgb(60, 152, 226);
+    color: white;
+    font-size: .9rem;
+    border-radius: 3px;
+    border: none;
+    cursor: pointer;
+}
+
+#oturumac:hover{
+    background-color: rgb(112, 178, 233);;
+}
+
+
+/* Need-help */
+
+#need-help{
+    margin-top: 5%;
+    padding-bottom: 5%;
+}
+
+#need-help a{
+    text-decoration: none;
+    font-size: 0.9rem;
+    color: rgb(104, 97, 97);
+}
+
+#need-help a:hover{
+    text-decoration: underline;
+}
